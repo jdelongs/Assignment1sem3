@@ -35,32 +35,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/GuiTest/models/Video.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/GuiTest/views/Main.class" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/GuiTest/views/NewMovieController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/44BffJXTUOXdupSc1mIZVPZjWNL484E9hires_ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/8BJ5xBS3vvrPnWZkLPhtXzXqgPc0s9iuhires_ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/WZH2Sn2hwAbXp1gcAtGvLHA199Z8dJvshires_ok.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/defaultImage.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/ecaxFdRhenlfhZzaEKIZN8Jip9ixFUvZdefaultImage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/f0Fe0Ni06tVUrzhqYAx5aZdHV7j1CwMHdefaultImage.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/images/maleUser.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Assignment1sem3.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/MovieTableView.fxml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/NewMovieView.fxml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/GuiTest/views/NewMovieView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/Movie.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/models/Video.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/ControllerClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/MovieTableController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/MovieTableView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/NewMovieController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/NewMovieView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/SceneChanger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -479,12 +457,20 @@
       <updated>1512388762083</updated>
       <workItem from="1512388764630" duration="18531000" />
       <workItem from="1512407748978" duration="28909000" />
-      <workItem from="1512456712594" duration="223000" />
+      <workItem from="1512456712594" duration="291000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1512457000750</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512457000750</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47663000" />
+    <option name="totallyTimeSpent" value="47731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -553,6 +539,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -755,6 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -793,6 +784,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
