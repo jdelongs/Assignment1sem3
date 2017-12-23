@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.SalesChartViewController">
+   <children>
+      <BarChart fx:id="barChart" layoutX="2.0" prefHeight="327.0" prefWidth="591.0">
+        <xAxis>
+          <CategoryAxis fx:id="months" side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="sales" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Button fx:id="backButton" layoutX="497.0" layoutY="335.0" mnemonicParsing="false" onAction="#backButtonPushed" text="Back" />
+   </children>
+</AnchorPane>

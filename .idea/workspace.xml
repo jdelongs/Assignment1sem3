@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d50002b-85de-4f76-bda1-e2f689c3c42d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/LoginView.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/LoginViewController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/SalesChartView.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/views/SalesChartViewController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/models/PwTester.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/models/PasswordGenerator.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/models/PasswordGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/models/User.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/models/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/LoginViewController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/LoginViewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/Main.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/MovieTableController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/MovieTableController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/NewUserViewController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/NewUserViewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/SalesChartViewController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/SalesChartViewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/SalesViewController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/SalesViewController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/UserTableViewController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/UserTableViewController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -53,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesViewController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SalesViewController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/SalesViewController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="581">
@@ -65,13 +75,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SalesView.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SalesView.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/views/SalesView.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="221">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding />
             </state>
@@ -457,7 +467,7 @@
       <workItem from="1513117784809" duration="9000" />
       <workItem from="1513639371777" duration="1907000" />
       <workItem from="1513820044852" duration="32000" />
-      <workItem from="1513951904819" duration="40322000" />
+      <workItem from="1513951904819" duration="40742000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1512457000750</created>
@@ -470,7 +480,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97298000" />
+    <option name="totallyTimeSpent" value="97718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -483,7 +493,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5206422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5206422" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1033,7 +1043,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
           <caret line="107" column="78" lean-forward="false" selection-start-line="107" selection-start-column="78" selection-end-line="107" selection-end-column="78" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1047,17 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/SalesView.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/SalesViewController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -1065,6 +1066,17 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/SalesView.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
