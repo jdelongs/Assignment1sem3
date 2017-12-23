@@ -266,4 +266,54 @@ public class Movie extends Video {
             }
         }
     }
+
+    /**
+     * this method will record the sales of each item in the database
+     */
+    public void itemSales(LocalDate dateSold, double priceSold) throws SQLException {
+        if(dateSold.isAfter(LocalDate.now()))
+        {
+            throw new IllegalArgumentException("Date sold cannot be in the future");
+        }
+        if(dateSold.isBefore(LocalDate.now().minusYears(1)))
+        {
+            throw new IllegalArgumentException("Date sold must be within the last 12 months");
+        }
+
+        if(priceSold < 0 || priceSold > 40)
+        {
+            throw new IllegalArgumentException("Movie must be in the range of 0-40 dollars");
+        }
+
+        Connection conn = null;
+        PreparedStatement ps =null;
+        try
+        {
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/movie?useSSL=false", "root","root");
+
+            String sql = "INSERT INTO sales (movieID, priceSold, dateSold) VALUES (?,?,?);";
+            ps = conn.prepareStatement(sql);
+
+            //convert into a date objcet
+            Date dateS = Date.valueOf(dateSold);
+
+            ps.setInt(1, movieID);
+            ps.setDouble(2, priceSold);
+            ps.setDate(3, dateS);
+
+            //run the update
+            ps.executeUpdate();
+        }
+        catch (SQLException e)
+        {
+          System.err.println(e.getMessage());
+        }
+        finally {
+            if(conn != null)
+                conn.close();
+
+            if(ps != null)
+                ps.close();
+        }
+    }
 }

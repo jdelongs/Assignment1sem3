@@ -38,7 +38,7 @@ public class NewMovieController implements Initializable {
     @FXML private TextField pricetxt;
     @FXML private Label errorLabell;
     @FXML private ImageView imageView;
-
+    private Movie movie;
     private File imageFile;
     private boolean imageFileChanged;
 
@@ -51,7 +51,7 @@ public class NewMovieController implements Initializable {
 
         try
             {
-                Movie movie;
+
             if(imageFileChanged)
             {
                 movie = new Movie(titletxt.getText(), Integer.parseInt(lengthMintxt.getText()),
@@ -94,7 +94,7 @@ public class NewMovieController implements Initializable {
 
 
     /**
-     * this method will exit out of the newMovieVIew and return to the MovieTableView
+     * this method will exit out of the newTableMovieVIew and return to the MovieTableView
      */
     public void cancelButtonPushed(ActionEvent actionEvent) throws IOException {
         SceneChanger sceneChanger = new SceneChanger();

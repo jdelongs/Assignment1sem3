@@ -14,9 +14,14 @@ public class Main extends Application {
         launch(args);
     }
 
+    /**
+     * this is the stage that will be shown when the user launches the application
+     * @param primaryStage
+     * @throws Exception
+     */
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("MovieTableView.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("LoginView.fxml"));
 
         Scene scene = new Scene(root);
 
