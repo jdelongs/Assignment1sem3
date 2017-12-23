@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.UserTableViewController">
+   <children>
+      <TableView fx:id="userTable" layoutX="43.0" layoutY="60.0" onMouseClicked="#userSelect" prefHeight="200.0" prefWidth="528.0">
+        <columns>
+          <TableColumn fx:id="userIDColumn" prefWidth="75.0" text="UserID" />
+          <TableColumn fx:id="nameColumn" prefWidth="189.0" text="Name" />
+            <TableColumn fx:id="phoneNumberColumn" prefWidth="262.0" text="Phone Number" />
+        </columns>
+      </TableView>
+      <Button layoutX="43.0" layoutY="304.0" mnemonicParsing="false" onAction="#newUserButtonPushed" text="New User" />
+      <Button fx:id="editUserBtn" layoutX="162.0" layoutY="304.0" mnemonicParsing="false" onAction="#newUserButtonPushed" text="Edit User" />
+      <Button fx:id="backBtn" layoutX="510.0" layoutY="304.0" mnemonicParsing="false" onAction="#backButtonPushed" text="Back" />
+   </children>
+</AnchorPane>

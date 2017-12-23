@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d50002b-85de-4f76-bda1-e2f689c3c42d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/MovieTableController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/SceneChanger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/views/ControllerClass.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/models/Movie.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/models/Movie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/NewMovieController.class" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/NewMovieController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Assignment1sem3/views/MovieTableView.fxml" afterPath="$PROJECT_DIR$/out/production/Assignment1sem3/views/MovieTableView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/Movie.java" afterPath="$PROJECT_DIR$/src/models/Movie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/models/Video.java" afterPath="$PROJECT_DIR$/src/models/Video.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/Main.java" afterPath="$PROJECT_DIR$/src/views/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/MovieTableController.java" afterPath="$PROJECT_DIR$/src/views/MovieTableController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/MovieTableView.fxml" afterPath="$PROJECT_DIR$/src/views/MovieTableView.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/NewMovieController.java" afterPath="$PROJECT_DIR$/src/views/NewMovieController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/SceneChanger.java" afterPath="$PROJECT_DIR$/src/views/SceneChanger.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -181,7 +168,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="102" />
     <option name="y" value="20" />
     <option name="width" value="1946" />
@@ -455,7 +442,7 @@
       <workItem from="1513117784809" duration="9000" />
       <workItem from="1513639371777" duration="1907000" />
       <workItem from="1513820044852" duration="32000" />
-      <workItem from="1513951904819" duration="39577000" />
+      <workItem from="1513951904819" duration="40074000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1512457000750</created>
@@ -468,10 +455,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96553000" />
+    <option name="totallyTimeSpent" value="97050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1058,7 +1045,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="132" column="63" lean-forward="false" selection-start-line="132" selection-start-column="63" selection-end-line="132" selection-end-column="63" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
